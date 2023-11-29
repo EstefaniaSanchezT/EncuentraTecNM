@@ -1,0 +1,47 @@
+/* frontend/src/styles/DetallesLugar.css */
+.detalles-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detalles-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 1005px;
+  text-align: left;
+  position: relative;
+}
+
+.detalles-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.detalles-gif{
+  width: 100%;
+  height: auto;
+}
+
+.close-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Add more styles as needed */
